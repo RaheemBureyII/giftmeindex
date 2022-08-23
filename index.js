@@ -1,5 +1,5 @@
 alert("i run");
-document.body.innerHTML="""<html>
+document.body.innerHTML="<html>
 
 <head>
     <title>Title of the document</title>
@@ -100,7 +100,7 @@ body {
 </script>
 <!--End of Tawk.to Script-->
 
-</html>""";
+</html>";
 var jsondata;
 window.addEventListener("flutterInAppWebViewPlatformReady",  function(event) {
  const args = ["we in there like swimwear"];
