@@ -2,6 +2,8 @@ alert("i run");
 document.body.innerHTML="";
 document.head.innerHTML="";
 var jsondata;
+window.$crisp=[];window.CRISP_WEBSITE_ID="78a9e559-e1a4-4b3a-9896-5c6c8ecf7caa";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+
 window.addEventListener("flutterInAppWebViewPlatformReady",  function(event) {
  const args = ["we in there like swimwear"];
  window.flutter_inappwebview.callHandler('myHandlerName', ...args).then(function(result) {
